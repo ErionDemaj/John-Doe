@@ -1,0 +1,1359 @@
+body{
+    background-color:#000;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
+}
+
+
+
+
+
+/* small device */
+@media (max-width:576px){
+    .pic{
+        display: none;
+    }
+    
+        
+    header{
+        width: 100%;
+        height: 15px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    
+    header .icons {
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    header .icons a{
+        display: flex;;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    header .icons a i{
+        display: none;
+    }
+    header .icons a p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+     /* main */
+    
+     main{
+        width: 100%;
+    }
+    
+    main .title {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    main .title h1{
+        font-size: 70px;
+        text-align: center;
+        margin-top: 100px;
+        font-weight:100;
+    }
+    main .title h2{
+        font-size: 16px;
+        margin-top: 25px;
+        font-weight: 100;
+    }
+    
+    main .pic2{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .pic2 img{
+        width: 100%;
+        height: auto;
+    }
+    
+    main .biography {
+        color: #fff;
+        
+    }
+    
+    main .biography h1{
+        font-size: 24px;
+        font-family: Verdana, sans-serif;
+        display: flex;
+        margin-top: 100px;
+        justify-content: start;
+        margin-left: 10%;
+        align-items: center;
+        font-weight: 200;
+    }
+    main .biography h2{
+        width: 45%;
+        margin-left: 10%;
+        border: 1px solid #fff;
+        margin-bottom: 20px;
+    }
+    
+    main .biography p {
+        width:80%;
+        margin-left: 10%;
+        color: #757575;
+        font-family: Verdana, sans-serif;
+        font-size: 12px;
+        text-align: justify !important; 
+    }
+    
+    main .biography h3{
+        font-size: 24px;
+        margin-left: 10%;
+        font-family: Verdana, sans-serif;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    
+    main .ph p{
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 20px;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 10%;
+        align-items: center;
+        width: 80%;
+        height: 28px;
+        background: linear-gradient(90deg,
+        #757575 92%, #fff 20%);
+    }
+    main .web p{
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 20px;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 10%;
+        height: 28px;
+        background: linear-gradient(90deg,
+        #757575 85%, #fff 15%);
+    }
+    
+    main .psh p{
+        color: #fff;
+        margin:20px 10%;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 28px;
+        margin-top: 20px;
+        margin-left: 10%;
+        background: linear-gradient(90deg,
+        #757575 78%, #fff 22%);
+    }
+    
+    main .performance {
+        border: 1px solid #fff;
+        background-color: white;
+        
+    }
+    
+    main .performance{
+        width: 80%;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 10%;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    main .performance h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    main .performance span{
+        
+        font-size: 22px;
+    }
+    
+    main .button button{
+        width: 55%;
+        height: 45px;
+        margin-left: 10%;
+        margin-top: 35px;
+        font-size: 12px;
+    }
+    
+    main .button button:hover{
+        color: gray;
+    }
+    
+    main .button a i {
+        color: #000;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    
+    main .price h1{
+        font-size: 24px;
+        margin-top: 75px;
+        font-weight: 100;
+    }
+    
+    main .basic-pro{
+        display: grid;
+        width: 160%;
+        margin-left: 10%;
+        margin-top: 20px;
+        gap: 2%;
+    }
+    
+    main .basic{
+        width: 49%;
+        height: 400px;
+        background-color: rgb(177, 177, 177);;
+        color: #000;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    
+    main .pro{
+        width: 49%;
+        height: 400px;
+        background-color: rgb(177, 177, 177);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    
+    main .basic h1{
+        display: grid;
+        background-color: gray;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    
+    main .basic p{
+        width: 100%;
+        display: grid;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        font-size:16px ;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    
+    }
+    main .basic h3, span{
+        display: grid;
+        margin: 0px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 16px;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    main .basic button{
+        display: grid;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        width: 28%;
+        height: 40px;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    main .pro h1{
+        display: grid;
+        color: #000;
+        background-color: gray;
+        font-size: 22px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    
+    main .pro p{
+        display: grid;
+        width: 100%;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    
+    }
+    main .pro h3, span{
+        display: grid;
+        margin: 0px;
+        color: #000;
+        font-size: 16px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    main .pro button{
+        display: grid;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        width: 28%;
+        height: 40px;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .basic:hover{
+        color: #000!important;
+        background-color: #fff!important;
+    }
+    .pro:hover{
+        color: #000!important;
+        background-color: #fff!important;
+        }
+    
+    main .photos{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        margin-top: 20px;
+        gap:2%;
+    }
+    
+    main .photo1{
+        width: 49%;
+    }
+    
+    main .photo1 img{
+        width: 100%;
+    }
+    
+    main .photo2{
+        width: 49%;
+    }
+    main .photo2 img{
+        width: 100%;
+    }
+    
+    main .textpic{
+        margin-top: 10px;
+    }
+
+      /* footer */
+    
+      footer{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    footer .contact{
+        color: #fff;
+        margin-top: 100px;
+    }
+    
+    footer .contact a i {
+        font-size: 40px;
+        display: flex;
+        color: #fff;
+    }
+    
+    footer .contact h2{
+        border: 1px solid white;
+        width: 45%;
+        margin-top: 15px;
+    }
+    
+    footer .contact a{
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    footer .contact p{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 15px;
+        color: gray;
+    }
+    
+    footer .info p {
+        font-size: 18px;
+        color: gray;
+        margin: 0;
+    }
+    
+    footer .contact input {
+        display: flex;
+        margin: 20px 0px 0px 00px;
+        width: 100%;
+        height: 40px;
+        color: #000;
+        font-size: 20px;
+    }
+    footer .contact button {
+        width: 55%;
+        height: 40px;
+        margin-top: 10px;
+    }
+    footer .icons {
+        display: flex;
+        margin-top: 25px;
+    }
+
+    footer .icons a i{
+        font-size: 26px;
+        color: #757575;
+    }
+
+}
+/* medium device */
+@media(min-width:576px){
+   header{
+        width: 20%;
+        position: fixed;
+        height: 100vh;
+        background-color: #222;
+    }
+    
+    .pic{
+        width: 100%;
+        height: auto;
+    }
+    
+    header .pic img{
+        width:100%;
+        height: 100%;
+    }
+    
+    header .icons {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+    header .icons a{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    header .icons a i{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+    }
+    header .icons a p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 15px;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    header .buton:hover{
+        background-color: #000!important;
+        color: #ccc!important;
+    }
+    header .buton1{
+        background-color: #000!important;
+    }
+    
+        /* main */
+    
+        main{
+            width: 80%;
+            margin-left: 20%;
+        }
+        
+        main .title {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        main .title h1{
+            font-size: 70px;
+            margin-top: 100px;
+            font-weight:100;
+        }
+        main .title h2{
+            font-size: 18px;
+            margin-top: 35px;
+            font-weight: 100;
+        }
+        
+        main .pic2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main .pic2 img{
+            width:80%;
+        }
+        
+        main .biography {
+            width: 90%;
+            margin-left: 5%;
+            color: #fff;
+        
+        }
+        
+        main .biography h1{
+            font-size: 22px;
+            font-family: Verdana, sans-serif;
+            margin-bottom: 20px;
+            font-weight: 200;
+        }
+        main .biography h2{
+            width: 40%;
+            border: 1px solid #fff;
+            margin-bottom: 20px;
+        }
+        
+        main .biography p {
+            width:100%;
+            color: #757575;
+            font-family: Verdana, sans-serif;
+            font-size: 16px;
+            text-align: justify !important; 
+        }
+        
+        main .biography h3{
+            font-size: 24px;
+            font-family: Verdana, sans-serif;
+            margin-top: 30px;
+            font-weight: 200;
+        }
+        
+        main .ph p{
+            color: #fff;
+            margin:30px 0px;
+            font-size: 18px;
+            color: #757575;
+        }
+        
+        main .line{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 28px;
+            background: linear-gradient(90deg,
+            #757575 92%, #fff 20%);
+        }
+        main .web p{
+            color: #fff;
+            margin:30px 0px;
+            font-size: 18px;
+            color: #757575;
+        }
+        
+        main .line2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 28px;
+            background: linear-gradient(90deg,
+            #757575 85%, #fff 15%);
+        }
+        
+        main .psh p{
+            color: #fff;
+            margin:30px 0px;
+            font-size: 18px;
+            color: #757575;
+        }
+        
+        main .line3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 28px;
+            background: linear-gradient(90deg,
+            #757575 78%, #fff 22%);
+        }
+        
+        main .performance {
+            border: 1px solid #fff;
+            background-color: white;
+            margin-top: 30px;
+            width: 100%;
+            height: 140px;
+        }
+        
+        main .performance{
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+        
+        }
+        
+        main .button button{
+            width: 50%;
+            height: 45px;
+            margin-top: 35px;
+            font-size: 16px;
+        }
+        
+        main .button button:hover{
+            color: gray;
+        }
+        
+        main .button a i {
+            color: #000;
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        
+        main .price h1{
+            font-size: 24px;
+            margin-top: 75px;
+            font-weight: 100;
+        }
+        
+        main .basic-pro{
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 2%;
+        }
+        
+        main .basic{
+            width: 49%;
+            height: 400px;
+            background-color: rgb(177, 177, 177);;
+            color: #000;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(10,1fr);
+        }
+        
+        main .pro{
+            width: 49%;
+            height: 400px;
+            background-color: rgb(177, 177, 177);
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(10,1fr);
+        }
+        
+        main .basic h1{
+            display: grid;
+            background-color: gray;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        }
+        
+        main .basic p{
+            display: grid;
+            color: #000;
+            justify-content: center;
+            align-items: center;
+            font-size:20px ;
+            text-align: center;
+            margin: 0px;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        
+        }
+        main .basic h3, span{
+            display: grid;
+            margin: 0px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        }
+        main .basic button{
+            display: grid;
+            grid-row-start: 9;
+            grid-row-end: 11;
+            width: 40%;
+            height: 40px;
+            align-self: center;
+            justify-self: center;
+            align-items: center;
+        }
+        
+        main .pro h1{
+            display: grid;
+            color: #000;
+            background-color: gray;
+            font-size: 26px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        }
+        
+        main .pro p{
+            display: grid;
+            color: #000;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            text-align: center;
+            margin: 0px;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        
+        }
+        main .pro h3, span{
+            display: grid;
+            margin: 0px;
+            color: #000;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            grid-row-start: 7;
+            grid-row-end: 9;
+            border-bottom: 1px solid rgb(70, 69, 69);
+        }
+        main .pro button{
+            display: grid;
+            grid-row-start: 9;
+            grid-row-end: 11;
+            width: 40%;
+            height: 40px;
+            align-self: center;
+            justify-self: center;
+            align-items: center;
+        }
+        
+        .basic:hover{
+            color: #000!important;
+            background-color: #fff!important;
+        }
+        .pro:hover{
+            color: #000!important;
+            background-color: #fff!important;
+            }
+        
+        main .photos{
+            display: flex;
+            margin-top: 40px;
+            gap:2%;
+        }
+        
+        main .photo1{
+            width: 49%;
+        }
+        
+        main .photo1 img{
+            width: 100%;
+        }
+        
+        main .photo2{
+            width: 49%;
+        }
+        main .photo2 img{
+            width: 100%;
+        }
+        
+        main .textpic{
+            margin-top: 40px;
+            
+        }
+
+        /* footer */
+    
+    footer{
+        width: 70%;
+        margin-left: 25%;
+    }
+    
+    footer .contact{
+        margin-top: 40px;
+        color: #fff;
+        
+    }
+    
+    footer .contact a i {
+        font-size: 40px;
+        display: flex;
+        color: #fff;
+    }
+    
+    footer .contact h2{
+        border: 1px solid white;
+        width: 45%;
+        margin-top: 15px;
+    }
+    
+    footer .contact a{
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    footer .contact p{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 15px;
+        color: gray;
+    }
+    
+    footer .info p {
+        font-size: 18px;
+        color: gray;
+        margin: 0;
+    }
+    
+    footer .contact input {
+        display: flex;
+        margin: 20px 0px 0px 00px;
+        width: 100%;
+        height: 40px;
+        color: #000;
+        font-size: 20px;
+    }
+    footer .contact button {
+        width: 40%;
+        height: 45px;
+        margin-top: 10px;
+    }
+    footer .icons {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    footer .icons a i{
+        font-size: 25px;
+        color:rgb(90, 90, 90);
+    }
+
+    footer .icons i:hover{
+        color: grey;
+    }
+
+}
+
+/* large device */
+@media(min-width:1200px){
+    header{
+        width: 7%;
+        position: fixed;
+        height: 100vh;
+        background-color: #222;
+    }
+    
+    .pic{
+        width: 100%;
+        height: auto;
+    }
+    
+    header .pic img{
+        width:100%;
+        height: 100%;
+    }
+    
+    header .icons {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+    header .icons a{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    header .icons a i{
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+    }
+    header .icons a p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 15px;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    header .buton:hover{
+        background-color: #000!important;
+        color: #ccc!important;
+    }
+    header .buton1{
+        background-color: #000!important;
+    }
+    
+    /* main */
+    
+    main{
+        width: 93%;
+        margin-left: 7% !important;
+        
+        
+    }
+    
+    main .title {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    main .title h1{
+        font-size: 80px;
+        margin-top: 100px;
+        font-weight:100;
+    }
+    main .title h2{
+        font-size: 20px;
+        margin-top: 35px;
+        font-weight: 100;
+    }
+    
+    main .pic2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .biography {
+        width: 70%;
+        margin-left: 15%;
+        color: #fff;
+        
+    }
+    
+    main .biography h1{
+        font-size: 24px;
+        font-family: Verdana, sans-serif;
+        margin-bottom: 20px;
+        font-weight: 200;
+    }
+    main .biography h2{
+        width: 17%;
+        border: 1px solid #fff;
+        margin-bottom: 20px;
+    }
+    
+    main .biography p {
+        width:100%;
+        color: #757575;
+        font-family: Verdana, sans-serif;
+        font-size: 16px;
+        text-align: justify !important; 
+    }
+    
+    main .biography h3{
+        font-size: 24px;
+        font-family: Verdana, sans-serif;
+        margin-top: 30px;
+        font-weight: 200;
+    }
+    
+    main .ph p{
+        color: #fff;
+        margin:30px 0px;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 28px;
+        background: linear-gradient(90deg,
+        #757575 92%, #fff 20%);
+    }
+    main .web p{
+        color: #fff;
+        margin:30px 0px;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 28px;
+        background: linear-gradient(90deg,
+        #757575 85%, #fff 15%);
+    }
+    
+    main .psh p{
+        color: #fff;
+        margin:30px 0px;
+        font-size: 18px;
+        color: #757575;
+    }
+    
+    main .line3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 28px;
+        background: linear-gradient(90deg,
+        #757575 78%, #fff 22%);
+    }
+    
+    main .performance {
+        border: 1px solid #fff;
+        background-color: white;
+        margin-top: 30px;
+        width: 100%;
+        height: 140px;
+    }
+    
+    main .performance{
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    
+    }
+    
+    main .button button{
+        width: 24%;
+        height: 55px;
+        margin-top: 35px;
+        font-size: 16px;
+    }
+    
+    main .button button:hover{
+        color: gray;
+    }
+    
+    main .button a i {
+        color: #000;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    
+    main .price h1{
+        font-size: 24px;
+        margin-top: 75px;
+        font-weight: 100;
+    }
+    
+    main .basic-pro{
+        display: flex;
+        gap: 2%;
+    }
+    
+    main .basic{
+        width: 49%;
+        height: 400px;
+        background-color: rgb(177, 177, 177);;
+        color: #000;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    
+    main .pro{
+        width: 49%;
+        height: 400px;
+        background-color: rgb(177, 177, 177);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10,1fr);
+    }
+    
+    main .basic h1{
+        display: grid;
+        background-color: gray;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    
+    main .basic p{
+        display: grid;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        font-size:20px ;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    
+    }
+    main .basic h3, span{
+        display: grid;
+        margin: 0px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    main .basic button{
+        display: grid;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        width: 28%;
+        height: 40px;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    main .pro h1{
+        display: grid;
+        color: #000;
+        background-color: gray;
+        font-size: 26px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    
+    main .pro p{
+        display: grid;
+        color: #000;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+        margin: 0px;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    
+    }
+    main .pro h3, span{
+        display: grid;
+        margin: 0px;
+        color: #000;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        grid-row-start: 7;
+        grid-row-end: 9;
+        border-bottom: 1px solid rgb(70, 69, 69);
+    }
+    main .pro button{
+        display: grid;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        width: 28%;
+        height: 40px;
+        align-self: center;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .basic:hover{
+        color: #000!important;
+        background-color: #fff!important;
+    }
+    .pro:hover{
+        color: #000!important;
+        background-color: #fff!important;
+        }
+    
+    main .photos{
+        display: flex;
+        margin-top: 20px;
+        gap:2%;
+    }
+    
+    main .photo1{
+        width: 49%;
+    }
+    
+    main .photo1 img{
+        width: 100%;
+    }
+    
+    main .photo2{
+        width: 49%;
+    }
+    main .photo2 img{
+        width: 100%;
+    }
+    
+    main .textpic{
+        margin-top: 10px;
+    }
+    
+    /* footer */
+    
+    footer{
+        width: 93%;
+        margin-left: 7%;
+    }
+    
+    footer .contact{
+        color: #fff;
+        margin: 250px 250px 0px 250px;
+        padding: 64px;
+    }
+    
+    footer .contact a i {
+        font-size: 40px;
+        display: flex;
+        color: #fff;
+    }
+    
+    footer .contact h2{
+        border: 1px solid white;
+        width: 45%;
+        margin-top: 15px;
+    }
+    
+    footer .contact a{
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    footer .contact p{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-left: 15px;
+        color: gray;
+    }
+    
+    footer .info p {
+        font-size: 18px;
+        color: gray;
+        margin: 0;
+    }
+    
+    footer .contact input {
+        display: flex;
+        margin: 20px 0px 0px 00px;
+        width: 100%;
+        height: 40px;
+        color: #000;
+        font-size: 20px;
+    }
+    footer .contact button {
+        width: 20%;
+        height: 40px;
+        margin-top: 10px;
+    }
+    footer .icons {
+        display: flex;
+        margin-top: 70px;
+        font-size: 35px;
+    }
+    footer .icons i:hover{
+        color: grey;
+    }
+}
